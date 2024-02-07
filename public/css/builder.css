@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none !important;
+  }
+  
+  html {
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sidenav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: #242e42;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .sidenav .logo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidenav .pages {
+    height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  
+  .main-content {
+    position: relative;
+    width: 85%;
+    left: 15%;
+  }
+  
+  .main-content .navbar {
+    padding: 0;
+  }
+  
+  .main-content .navbar .container-fluid {
+    padding: 0;
+  }
+  
+  .main-content #editor {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .gjs-pn-panel {
+    position: relative;
+  }
+  
+  .gjs-cv-canvas {
+    width: 100%;
+    height: 100%;
+    top: 0;
+  }
+  
+  .tab-content {
+    display: contents;
+  }
+  
+  #block {
+    height: 100%;
+  }
+  
+  #block #blocks {
+    height: 100%;
+  }
+  
+  #block #blocks .gjs-blocks-c {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  #block #blocks .gjs-block {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  
+  
+  /* Theming */
+  .gjs-one-bg {
+    background-color: #242e42;
+  }
+  
+  .gjs-two-color {
+    color: #9ca8bb;
+  }
+  
+  .gjs-three-bg {
+    background-color: #1e8fe1;
+    color: 242e42;
+  }
+  
+  .gjs-four-color,
+  .gjs-four-color-h:hover {
+    color: #1e8fe1;
+  }
+  /*# sourceMappingURL=main.css.map */
+  
+  #editor{
+  
+    height: 660px !important;
+    padding-bottom: 10px ;
+    font-family: Montserrat, sans-serif;
+  }
+  
+  .gjs-selected {
+    outline: 7px solid #3b97e3 !important;
+    outline-offset: -2px;
+  }
+  .gjs-badge{
+  
+    font-size: 16px !important;
+  }
+  .gjs-block{
+  
+    width: 100% !important;
+  }
+  
+  .my-custom-button{
+  
+    margin-left: 167px;
+    border: 1px solid;
+    font-size:11px;
+  
+  }
+  
+  .gjs-blocks-c{
+  
+    background-color: aliceblue !important;
+  }
+  
+  .gjs-placeholder.horizontal{
+  
+    height: 10px !important;
+    z-index: 9999999 !important;
+  }
+  
+  a{
+    text-decoration: none !important;
+  }
+
+  .tituloModal2{
+
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 15px;
+    font-weight: 600 !important;
+    color: blue !important;
+  }
+
+  .gjs-title, .gjs-sm-sector-title {
+    font-weight: lighter;
+    background-color: var(--gjs-secondary-dark-color);
+    letter-spacing: 1px;
+    padding: 9px 10px 9px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.25);
+    text-align: left;
+    position: relative;
+    cursor: pointer;
+    font-family: 'Montserrat Alternates';
+    font-size: 11px;
+}

@@ -1,0 +1,249 @@
+body{
+
+    font-family: "Montserrat Alternates", Sans-serif;
+    font-weight: 700;
+  }
+  
+  .navbar{
+  
+    position: absolute !important;
+    width: 100% !important;
+  }
+  
+  a{
+    text-decoration: none !important;
+    color: white !important;
+  }
+  
+  .bg-image{
+  
+    background-image: url(https://eventdate.es/wp-content/uploads/2022/09/FONDO-SI-ACEPTO.png);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1% 4% 1% 4% !important;
+  }
+  
+  @media (max-width: 767px){
+  
+  .bg-image{
+  height: 90vh;
+  }
+  }
+  
+  
+  .bg-transparent{
+  
+    padding: 10px;
+  }
+  
+  .tituloheader{
+  
+    font-size: 50px !important;
+    font-weight: 700 !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+    /* Estilos a aplicar cuando la pantalla tiene un ancho máximo de 600px */
+    .tituloheader{
+      font-size: 40px !important;
+    }
+  
+    .col-titulo{
+  
+      align-items: center;
+    }
+  }
+  
+  
+  .btn-green{
+  
+    font-family: "Montserrat Alternates", Sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #7FC6BA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 20px 15px 20px;
+    margin: 4px;
+  }
+  
+  .modelos{
+  
+    padding: 6% 17% 4% 17%;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .modelos{
+  
+      padding: 15% 7% 10% 7%;
+    }
+  
+    .img-modelo{
+  
+      width: 100% !important;
+    }
+  
+    .btn-green{
+  
+      padding: 7px !important;
+    }
+  }
+  
+  .img-modelo{
+  
+    width: 99%;
+  }
+  
+  .curve-divider {
+    background-color: #f1f1f1;
+  }
+  
+  .elementor-shape-fill {
+    fill: #ffffff;
+  }
+  
+  .custom-section{
+  
+    padding: 0% 15% 4% 15%;
+  }
+  
+  .img-fluid{
+  
+    width: 80% !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .custom-section{
+  
+      padding: 7% 7% 9% 7%;
+    }
+  
+    .img-fluid{
+  
+      width: 70% !important;
+    }
+    
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .question-section{
+  
+      padding: 14% 4% 4% 7% !important;
+    }
+  }
+  
+  
+  .price-section {
+    background-image: url('https://eventdate.es/wp-content/uploads/2022/10/asdsdadaxs.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5% 0;
+    border-radius: 50px 50px 0 0;
+    position: relative;
+    z-index: 1;
+    padding: 8% 10% 8% 10%;
+  }
+  
+  .divprecio{
+  
+    background-color: #7FC6BA; 
+    margin-top: 43px; 
+    margin-bottom: 0px; 
+    border-radius:30px; 
+    padding:70px;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .divprecio{
+  
+      padding:40px !important;
+    }
+  
+    .price-section {
+  
+      padding: 14% 4% 25% 4%;
+  
+    }
+  }
+  
+  .tituloprecio{
+  
+    font-family: "Raleway", Sans-serif;
+      font-size: 70px;
+      font-weight: 700;
+      line-height: 20px;
+      letter-spacing: 4px;
+    color: white; 
+    margin-top: 144px;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .tituloprecio{
+  
+      font-size: 45px;
+      margin-top: 25px;
+    }
+  
+    .lista{
+      margin-bottom: 17px !important; 
+    }
+  }
+  
+  ul {
+    list-style-type: disc; /* Establece el estilo de la lista como puntos */
+    color: white; /* Cambia el color de los puntos a blanco */
+  }
+  
+  .lista{
+    margin-bottom: 7px !important; /* Ajusta el valor según sea necesario */
+  }
+  
+  h5{
+  
+    font-size: 20px !important;
+  }
+  
+  .seccion_pasos{
+  
+    padding: 6% 10% 4% 10%;
+  }
+  
+  .img_pasos{
+  
+    width: 70% !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .seccion_pasos{
+  
+      padding: 17% 4% 14% 4%;
+    }
+  
+    .img_pasos{
+  
+      width: 50% !important;
+    }
+  
+    .paso{
+  
+      margin-bottom: 50px !important;
+    }
+  
+  }
+  
+  .iframefinal{
+  
+    position: absolute;
+      top: 34px;
+      left: 155px;
+      width: 40%;
+      height: 87%;
+      border-radius: 26px;
+  }
+  
